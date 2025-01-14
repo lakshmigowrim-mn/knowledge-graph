@@ -1,0 +1,16 @@
+name: knowledge-graph
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - streamlit
+  - numpy
+  - torch
+  - transformers
+  - pandas
+  - wikipedia
+  - pip
+  - pip:
+      - flask
